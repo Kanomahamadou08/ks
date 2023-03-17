@@ -1,0 +1,123 @@
+body{
+    background-image: url(f1.JPG);
+    background-repeat: repeat;
+    background-size: 100%;
+}
+h1{
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    display: block;
+    margin: auto;
+    position: absolute;
+    left: 40%;
+    right: 40%;
+}
+h4{
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: whitesmoke;
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+   
+}
+.card{
+    border-radius: 16px;
+    width:420px;
+    height: 440px;
+    background: url(f2.JPG);
+    background-size: 100%;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 5px 50px rgba(0, 0, 0, 0.85);
+    bottom: 3%;
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    
+
+    
+}
+   
+
+.card.img span{
+    width: 25%;
+    height: 100%;
+    background: url(téléchargem.ent.jpg);
+    transition: 0.5s;
+    transform-style: preserve-3d;
+}
+.card.img span:nth-child(1){
+    transition-delay: 0;
+    background-position:0 ;
+    
+}
+.card.img span:nth-child(2){
+    transition-delay: 0.1;
+    background-position: 33.33%;
+    float: left;
+}
+.card.img span:nth-child(3){
+    transition-delay: 0.2;
+    background-position: 66.66%;
+    
+}
+.card.img span:nth-child(4){
+    transition-delay: 0.3;
+    background-position: 100%;
+    
+}
+.card:hover>span{
+    transform: translateY(50%)
+    
+}
+.content{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    padding: 20px 20px;
+    width: 100%;
+    height: 100%;
+    transform:translateY(50%);
+    
+    
+    
+}
+.card:hover .content{
+    transform: translateX(0%);
+    transition: 1s;
+    transition-delay: 0.1s;
+    transform-style: flat;
+    
+}
+
+
+.content{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    padding: 20px 20px;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+    
+}
+.g{
+    height: 200px;
+    width: 400px;
+    position: relative;
+    left: 50%;
+}
+h2{
+    color: white;
+    font-size:40px;
+
+    
+}

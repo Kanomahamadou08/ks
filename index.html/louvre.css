@@ -1,0 +1,87 @@
+body{
+    background-color: bisque;
+    background-size: cover;
+}
+.card{
+    height: 60%;
+    width: 40%;
+    background: rgba(255, 255, 255, 0.012);
+    backdrop-filter: blur(5px);
+    border-radius: 12px;
+    border-top: 8px solid rgb(243, 204, 131);
+    border-right: 8px solid rgb(243, 204, 131);
+    border-bottom: 8px solid rgb(243, 204, 131);
+}
+.card.content.h3{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+    
+
+.content{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(28, 25, 25);
+    padding: 20px 20px;   
+}
+h1{
+    text-transform: uppercase;
+}
+.q{
+    position: relative;
+    left: 70%;
+    bottom: 15%;
+}
+.images{
+display: flex;
+width: calc(500px);
+height: calc(350px);
+animation-duration: 10s;
+animation-name: images;
+animation-iteration-count: infinite;
+
+}
+#caroussel{
+    width:550px;
+    overflow: auto;
+    position: relative;
+    left:45% ;
+}
+@keyframes images{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(-510px);
+    }
+    50%{
+        transform: translateX(-1020px);
+    }
+    75%{
+        transform: translateX(-1530px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+h2{
+    position: relative;
+    left:45% ;
+    -webkit-text-stroke: 0.5px #0f0f0f;
+    font-family: monospace;
+    text-transform: uppercase;
+    letter-spacing: 0.1;
+    font-size: 70px;
+    color: transparent;
+}
+
+
+
+

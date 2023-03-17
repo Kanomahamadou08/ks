@@ -1,0 +1,143 @@
+body{
+    background-image: url(kenyan-flag-flying.jpg);
+    background-size: cover;
+}
+
+
+
+.container{
+    max-width: 500px;
+background-color: rgba(178, 79, 79, 0.829);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0,0 ,0 , 0.3);
+}
+img{
+    width: 200px;
+    float: left;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+p{
+    color: #fff;
+    font-family: monospace;
+    
+    font-size: 18px;
+}
+
+    
+
+
+.container1{
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0,0 ,0 , 0.3);
+    margin: 0 auto;
+    max-width: 300px;
+    position: relative;
+    left: 25%;
+    top: 10%;
+    background-image: url(OIP.jpeg);
+
+}
+.container2{
+    max-width: 400px;
+    margin: 0 auto;
+    position: relative;
+    right: 30%;
+    background-color: rgba(41, 218, 55, 0.305);
+}
+.g{
+    width: 500px;
+    position: relative;
+    left: 5%;
+    
+    height: 300px;
+}
+.diaporama{
+    margin: 0 auto;
+    width: calc(600px);
+    height: calc(350px);
+    background-image: url(pays1.jpeg);
+    -webkit-animation-name: diapo1;
+    -webkit-animation-duration: 9s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+
+    -moz-animation-name: diapo1;
+    -moz-animation-duration: 9s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction: normal;
+    
+    animation-name: diapo1;
+    animation-duration: 9s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+@-webkit-keyframes diapo1{
+    0%{background-image: url(pays1.jpeg);}
+    25%{
+        background-image: url(pays3.jpg);
+    }
+    50%{
+        background-image: url(pays4.jpeg);
+    }
+    75%{
+        background-image: url(pays5.jpeg);
+    }
+    100%{
+        background-image: url(pays6.jpg);
+    }
+
+}
+@-moz-keyframes diapo1{
+    0%{background-image: url(pays1.jpeg);}
+    25%{
+        background-image: url(pays3.jpg);
+    }
+    50%{
+        background-image: url(pays4.jpeg);
+    }
+    75%{
+        background-image: url(pays5.jpeg);
+    }
+    100%{
+        background-image: url(pays6.jpg);
+    }
+
+}
+@keyframes diapo1{
+    0%{background-image: url(pays1.jpeg);}
+    25%{
+        background-image: url(pays3.jpg);
+    }
+    50%{
+        background-image: url(pays4.jpeg);
+    }
+    75%{
+        background-image: url(pays5.jpeg);
+    }
+    100%{
+        background-image: url(pays6.jpg);
+    }
+
+}
+
+h3,h1,h2{
+    font-family: monospace;
+    font-size: 20px;
+    letter-spacing: 10px;
+    color: transparent;
+    text-transform: uppercase;
+    -webkit-text-stroke: 0.5px #fff;
+}
+
+
+
+
+
+
